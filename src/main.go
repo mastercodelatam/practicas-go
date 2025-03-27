@@ -85,4 +85,14 @@ func main() {
 	areaCirculo := pi * (float64(radioCirculo) * float64(radioCirculo))
 	fmt.Println("Area circulo", areaCirculo)
 
+	//println
+	nombre1 := "Juan"
+	edad1 := 30
+	fmt.Println(nombre1, edad1)
+
+	//printf
+	nombre := "Juan"
+	edad := 30
+	fmt.Printf("%s tiene %d años de edad\n", nombre, edad)
+
 }
